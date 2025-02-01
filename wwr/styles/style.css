@@ -1,0 +1,132 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav a {
+    text-align: center;
+  }
+  
+  #hero-msg h1, #hero-msg h4 {
+    text-align: center;
+  }
+  
+  .button-box {
+    text-align: center;
+  }
+  
+  main section {
+    text-align: center;
+  }
+  
+  #background {
+    height: 725px;
+}
+body {
+    background-color: #264653; /* Light gray background */
+    color: #ffffff; /* Dark text color */
+  }
+  
+  header {
+    background-color: #8E4A49; /* Grey background */
+    color: rgb(0, 0, 0); /* White text */
+  }
+  
+  nav a:hover {
+    background-color: #ff6600; /* Orange background on hover */
+    color: rgb(0, 0, 0); /* White text on hover */
+  }
+  
+  .book, .join {
+    background-color: #000000; /* Green background */
+    color: white; /* White text */
+  }
+  
+  .book:hover, .join:hover {
+    background-color: #0c0b17; /* Darker green on hover */
+    color: white; /* White text on hover */
+  }
+  
+  #background {
+    background-color: #141a16; /* Dark background */
+    color: #ffffff; /* Light text */
+  }
+  
+  .msg {
+    background-color: #264653; /* Yellow background */
+    color: #ffffff; /* Dark text */
+  }
+  
+  footer {
+    background-color: #333; /* Dark footer background */
+    color: white; /* White text */
+  }
+  nav a {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+  }
+  
+  nav a:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+    color: white; /* White text on hover */
+  }
+  
+  .home-title {
+    background-color: #264653; /* Light background */
+    color: #ffffff; /* Dark text */
+  }
+  
+  h4 {
+    background-color: #264653; /* White background */
+    color: #ffffff; /* Darker text */
+  }
+  
+  .book, .join {
+    background-color: #EDB458; /* yellow background */
+    color: rgb(0, 0, 0); /* White text */
+  }
+  
+  .book:hover, .join:hover {
+    background-color: #8c6a34; /* Darker yellow on hover */
+    color: rgb(0, 0, 0); /* White text on hover */
+  }
+  
+  .msg h2 {
+    background-color: #264653; /* Yellow background */
+    color: #8E4A49; /* Dark text */
+  }
+  
+  .msg p {
+    background-color: #264653; /* Light background */
+    color: #8E4A49; /* Dark gray text */
+  }
+  
+  footer {
+    background-color: #264653; /* Dark background */
+    color: white; /* White text */
+  }
+  
+  footer a {
+    color: #ffffff; /* White text */
+  }
+  
+  footer a:hover {
+    color: #EDB458; /* Gold text on hover */
+  }
+  .hero img {
+    width: 100%;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  
+  .book, .join {
+    text-decoration: none;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  footer p {
+    font-size: 1.2em;
+}    
