@@ -1,8 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Montserrat&display=swap');
+  font-family: "Space Grotesk", "Montserrat", Helvetica, sans-serif;
+body #content { max-width: 1600px; margin: 0 auto; }
+/* Importing the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Montserrat&display=swap');
+
+/* Body font setup (Montserrat) */
 body {
-    max-width: 1600px;
-    margin: 0 auto;
+    background-color: #fcfbfb;
+    font-family: 'Montserrat', Arial, sans-serif; /* Montserrat for paragraphs */
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header font setup (Space Grotesk) */
+.home-title {
+    font-family: 'Space Grotesk', Arial, sans-serif; /* Space Grotesk for headers */
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+/* Reset margin for h2 */
+h2 {
+    margin: 0;
+}
+
+/* Adjusting font sizes for other elements */
+.book, .join {
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px 30px;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+/* Adjust line height for .msg */
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+}
+
+/* Padding and margin adjustments */
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
     text-align: center;
-  }
+    padding: auto;
+}
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+/* Borders and box-sizing */
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+/* Footer padding */
+footer {
+    padding: 25px 50px;
+}
+.logo { 
+  width: 80px;
+}
+.icon. {
+  width: 80px;
+}
+ {
+  width: 100px;
+  height: 100px;
+}
   nav a {
     text-align: center;
   }
@@ -113,8 +193,12 @@ body {
   footer a:hover {
     color: #EDB458; /* Gold text on hover */
   }
-  .hero img {
-    width: 100%;
+  .hero-image {
+    width: 10px;
+    height: auto;
+  }
+  img.dryoar.png {
+    width: 80px;
   }
   nav a {
     text-decoration: none;
