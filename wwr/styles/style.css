@@ -247,12 +247,12 @@ body {
     color: white; /* White text */
   }
   nav a {
-    background-color: #007bff; /* Blue background */
+    background-color: #8E4A49; /* red background */
     color: white; /* White text */
   }
   
   nav a:hover {
-    background-color: #0056b3; /* Darker blue background on hover */
+    background-color: #6b3837; /* Darker red background on hover */
     color: white; /* White text on hover */
   }
   
