@@ -319,6 +319,76 @@ body {
   footer p {
     font-size: 1.2em;
 }    
+
+/* Page 2 */
+
+
+/* FAQ Section */
+.faq {
+  padding: 40px;
+  flex-grow: 1; /* Ensures the FAQ section grows and pushes the footer down */
+}
+
+.faq h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Question Section */
+.question {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding: 15px;
+  position: relative;
+}
+
+.question-text {
+  width: 60%;
+  padding-right: 20px;
+}
+
+.question-text h3 {
+  font-size: 60%;
+  margin-bottom: 10px;
+}
+
+.question-text p {
+  font-size: 60%;
+  line-height: 1.6;
+}
+
+.kids-card {
+  width: 30%;
+  position: absolute;
+  right: 0;
+}
+
+.safety-card img {
+  width: 100%;
+  height: auto;
+  right: 100;
+}
+
+/* Additional Image Section */
+.lunch-card {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.bottom-card {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
