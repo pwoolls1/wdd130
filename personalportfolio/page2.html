@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .header, .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .header a, .footer a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .button {
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .content img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .content .text {
+            max-width: 600px;
+            margin: 0 20px;
+        }
+        .reverse {
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="images/portfolio_logo.png">
+            <nav>
+                <a href="index.html">Page 1</a>
+                <a href="page3.html">Page 3</a>
+                <a href="site-plan.html">Site Plan</a>
+            </nav>
+        </div>
+
+        <div class="content">
+            <img src="images/rareearthgallery.jpeg" alt="Rare Earth Gallery Logo">
+            <p class="text">
+                I believe visitors will choose my website over others because it will offer a personal, engaging experience that emphasizes quality over quantity. By offering clear, well-organized sections and an easy-to-navigate design, visitors will be able to quickly find what they're looking for. Ultimately, my website will stand out because it tells my story.
+            </p>
+        </div>
+
+        <div class="content reverse">
+            <img src="images/palisadepestlogo.png" alt="palisade pest logo">
+            <p class="text">
+                I will show where I have worked in the past. It highlights not only my skills but my passion, commitment, and the quality of my work. By fostering a personal connection with visitors, my website will become a space where potential clients or employers feel confident in reaching out to me for collaboration. The combination of strong design, personalized content, and clear calls to action will make my portfolio website the go-to resource for learning more about what I offer. 
+            </p>
+        </div>
+
+        <div class="footer">
+            <img src="images/portfolio_logo.png">
+            <div>
+                <a href="index.html">Page 1</a>
+                <a href="page3.html">Page 3</a>
+                <a href="site-plan.html">Site Plan</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
