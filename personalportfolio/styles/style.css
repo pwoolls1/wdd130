@@ -1,46 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Montserrat&display=swap');
   font-family: "Space Grotesk", "Montserrat", Helvetica, sans-serif;
 body #content { max-width: 1600px; margin: 0 auto; }
-/* Importing the fonts */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Montserrat&display=swap');
+
+:root {
+  --background-color: #8D7D90;
+  --text-color: #002727;
+  --link-color: #007979;
+  --hover-link-color: #01baba;
+  --footer-background: #ECEBF3;
+  --footer-text-color: #002727;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #333; /* Dark color for text for readability */
-    line-height: 1.6;
-    background-color: #f4f4f4; /* Light background for good contrast */
-  }
-  
-  /* Heading styles */
-  h1, h2, h3, h4, h5, h6 {
-    body {
-        background-color: #fcfbfb;
-        font-family: 'Montserrat', Arial, sans-serif; /* Montserrat for paragraphs */
-        font-size: 22px;
-        margin: 0;
-        padding: 0;
-    }
+  background-color: #ECEBF3;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Space Grotesk", sans-serif; /* Ensuring headings have correct font */
+}
   
   /* Paragraphs and other text */
   p {
     font-size: 1rem;
-    color: #555; /* Medium gray for paragraphs */
+    color: #002727; /* Medium gray for paragraphs */
   }
 
-:root {
-    --primary-color: #3498db; /* Example primary color (blue) */
-    --secondary-color: #2ecc71; /* Secondary color (green) */
-    --background-color: #ECEBF3; /* Light background color */
-    --text-color: #333333; /* Dark text for readability */
-    --link-color: #3498db; /* Link color */
-    --hover-link-color: #2980b9; /* Darker blue on hover */
-    --footer-background: #2c3e50; /* Dark footer background */
-    --footer-text-color: #ecf0f1; /* Light footer text */
+  .header {
+    background-color: #8D7D90;
+    overflow: hidden;
   }
   
+  /* Style the links inside the navigation bar */
+  .header a {
+    float: left;
+    color: #433b44;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .header a:hover {
+    background-color: #8D7D90;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .header a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
   /* Apply colors */
   body {
-    background-color: var #ECEBF3(--background-color);
+    background-color: var #8D7D90(--background-color);
     color: var #002727(--text-color);
   }
   

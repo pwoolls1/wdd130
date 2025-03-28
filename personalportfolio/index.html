@@ -4,59 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: Montserrat, sans serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .container {
-            width: 80%;
-            max-width: 1200px;
-            margin: 20px auto;
-        }
-        .header, .footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
-        }
-        .header a, .footer a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: black;
-        }
-        .button {
-            background-color: black;
-            color: white;
-            padding: 5px 10px;
-            border: none;
-            cursor: pointer;
-        }
-        .content {
-            display: flex;
-            align-items: center;
-            margin: 20px 0;
-        }
-        .content img {
-            width: 300px;
-            height: 200px;
-            object-fit: cover;
-            margin-right: 20px;
-        }
-        .text {
-            max-width: 600px;
-        }
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header a, .footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #002727;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.content img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.text {
+    max-width: 600px;
+}
+body {
+  background-color: #ECEBF3;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Space Grotesk", sans-serif; /* Ensuring headings have correct font */
+}
+  
+  /* Paragraphs and other text */
+  p {
+    font-size: 1rem;
+    color: #002727; /* Medium gray for paragraphs */
+  }
+
+  .header {
+    background-color: #8D7D90;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .header a {
+    float: left;
+    color: #2f2930;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .header a:hover {
+    background-color: #534057;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .header a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /* Apply colors */
+  body {
+    background-color: var #8D7D90(--background-color);
+    color: #002727(--text-color);
+  }
+  
+  a {
+    color: #554b57(--link-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--hover-link-color);
+  }
+  
+  footer {
+    background-color: #8D7D90;
+    color: #2f2930; 
+  }
+  
+  .header, .footer {
+    padding: 20px;
+  }
     </style>
 </head>
 <body>
 
     <div class="container">
         <div class="header">
-            <img src="images/portfolio_logo.png">
+            <img src="images/portfolio_logo.png" alt="Portfolio Logo">
             <nav>
                 <a href="page2.html">Page 2</a>
                 <a href="page3.html">Page 3</a>
