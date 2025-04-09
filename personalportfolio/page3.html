@@ -4,120 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
-    .container {
-        width: 80%;
-        max-width: 1200px;
-        margin: 20px auto;
-    }
-    .header, .footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-    }
-    .header a, .footer a {
-        margin: 0 10px;
-        text-decoration: none;
-        color: #002727;
-    }
-    .content {
-        display: flex;
-        align-items: center;
-        margin: 20px 0;
-    }
-    .content img {
-        width: 300px;
-        height: 200px;
-        object-fit: cover;
-        margin-right: 20px;
-    }
-    .text {
-        max-width: 600px;
-    }
-    body {
-      background-color: #ECEBF3;
-      font-family: 'Montserrat', Arial, sans-serif;
-      font-size: 22px;
-      margin: 0;
-      padding: 0;
-    }
-    
-    h1, h2, h3, h4, h5, h6 {
-      font-family: "Space Grotesk", sans-serif; /* Ensuring headings have correct font */
-    }
-      
-      /* Paragraphs and other text */
-      p {
-        font-size: 1rem;
-        color: #002727; /* Medium gray for paragraphs */
-      }
-    
-      .header {
-        background-color: #8D7D90;
-        overflow: hidden;
-      }
-      
-      /* Style the links inside the navigation bar */
-      .header a {
-        float: left;
-        color: #2f2930;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-      
-      /* Change the color of links on hover */
-      .header a:hover {
-        background-color: #534057;
-        color: black;
-      }
-      
-      /* Add a color to the active/current link */
-      .header a.active {
-        background-color: #04AA6D;
-        color: white;
-      }
-      /* Apply colors */
-      body {
-        background-color: var #8D7D90(--background-color);
-        color: #002727(--text-color);
-      }
-      
-      a {
-        color: #554b57(--link-color);
-        text-decoration: none;
-      }
-      
-      a:hover {
-        color: var(--hover-link-color);
-      }
-      
-      footer {
-        background-color: #8D7D90;
-        color: #2f2930; 
-      }
-      
-      .header, .footer {
-        padding: 20px;
-      }
-        </style>
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header a, .footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #002727;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.content img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.text {
+    max-width: 600px;
+}
+body {
+  background-color: #ECEBF3;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Space Grotesk", sans-serif; /* Ensuring headings have correct font */
+}
+  
+  /* Paragraphs and other text */
+  p {
+    font-size: 1rem;
+    color: #002727; /* Medium gray for paragraphs */
+  }
+
+  .header {
+    background-color: #8D7D90;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .header a {
+    float: left;
+    color: #2f2930;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .header a:hover {
+    background-color: #534057;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .header a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /* Apply colors */
+  body {
+    background-color: var #8D7D90(--background-color);
+    color: #002727(--text-color);
+  }
+  
+  a {
+    color: #554b57(--link-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--hover-link-color);
+  }
+  
+  footer {
+    background-color: #8D7D90;
+    color: #2f2930; 
+  }
+  
+  .header, .footer {
+    padding: 20px;
+  }
+    </style>
 </head>
 <body>
 
     <div class="container">
         <div class="header">
-            <img src="images/portfolio_logo.png">
+            <img src="images/portfolio_logo.png" alt="Portfolio Logo">
+            
             <nav>
-                <a href="index.html">Welcome</a>
-                <a href="page2.html">About Me</a>
-                <a href="site-plan.html">Site Plan</a>
-            </nav>
-            <body>
-                <h1>Parker's Portfolio</h1>
-              </body>
+              <a href="index.html">Page 1</a>
+              <a href="page2.html">Page 2</a>
+              <a href="page3.html">Page 3</a>
+              <a href="site-plan.html">Site Plan</a>
+          </nav>
+            <p style="text-align: center;"> <h1>Parker's Portfolio</h1> </p>
         </div>
+
 
         <div class="content">
             <img src="images/collaboration.jpg" alt="Collaboration">
@@ -127,7 +130,7 @@
         </div>
 
         <div class="content">
-            <img src="images/quartz.jpeg" alt="Quartz">
+            <img src="images/quartz.jpeg" alt="Quartz" style="height: 275px; width: 425px">
             <p class="text">
                 Questions Visitors May Have One of the key questions visitors will expect my site to answer is: "What can this person do for me?" They want to know what value I can bring to their projects or company. They might also want to know about my background—such as education, experience, and any specific expertise in certain areas. Visitors will also likely ask, “What have they worked on?” and expect to see a portfolio of work that demonstrates the quality and breadth of my capabilities. They may also inquire about my availability or how to get in touch with me, so clear contact information and call-to-action buttons will be crucial.
             </p>
@@ -136,9 +139,10 @@
         <div class="footer">
             <img src="images/portfolio_logo.png">
             <div>
-                <a href="index.html">Page 1</a>
-                <a href="page2.html">Page 2</a>
-                <a href="site-plan.html">Site Plan</a>
+              <a href="index.html">Page 1</a>
+              <a href="page2.html">Page 2</a>
+              <a href="page3.html">Page 3</a>
+              <a href="site-plan.html">Site Plan</a>
             </div>
         </div>
     </div>
